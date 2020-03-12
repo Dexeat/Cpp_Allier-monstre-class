@@ -2,13 +2,14 @@
 #define MONSTRE_H
 
 #include <string>
+#include <iostream>
 
 class Monstre
 {
 private:
     int _pv;
     int _att;
-    std::string nom;
+    std::string _nom;
 
 public:
     void takeDamage(int nbDamage);
@@ -17,7 +18,7 @@ public:
     int getAtt();
     bool aLive();
 
-    Monstre(/* args */);
+    Monstre(int pv, int att, std::string nom);
     ~Monstre();
 };
 
