@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Monstre.cpp"
 
 using namespace std;
 
